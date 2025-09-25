@@ -6,8 +6,13 @@ from google.colab.patches import cv2_imshow  # لعرض الصور في Google C
 # الحصول على المسار الخاص بملف Haar Cascade المدمج مع OpenCV
 cascade_path = os.path.join(cv2.data.haarcascades, 'haarcascade_frontalface_default.xml')
 
-# تحميل الصورة من المسار المحدد
-image = cv2.imread("/content/drive/MyDrive/face.jpg")
+# تحميل الصورة من نفس مجلد الكود
+image = cv2.imread("face.jpg")
+
+
+# إذا وضعت الصورة داخل مجلد فرعي (مثلاً images/face.jpg) لازم تحدد المسار النسبي:
+# image = cv2.imread("images/face.jpg")
+
 
 # تحويل الصورة إلى التدرج الرمادي (لأن كاشف الوجوه يعمل بشكل أفضل على صور رمادية)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
