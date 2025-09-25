@@ -55,3 +55,26 @@ python face_detection.py
 ## 📜 الترخيص
 
 هذا المشروع متاح تحت ترخيص MIT، يمكنك استخدامه وتعديله بحرية.
+
+## 🏷️الكلمات المفتاحية:
+opencv
+
+face-detection
+
+haar-cascade
+
+computer-vision
+
+image-processing
+
+python
+
+machine-learning
+
+ai
+
+tutorial
+
+beginner-project
+
+image-recognition
